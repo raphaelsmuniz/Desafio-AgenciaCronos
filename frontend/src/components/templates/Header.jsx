@@ -7,7 +7,7 @@ export default (props) => (
       <a href="#">
         <img src={img} alt="Agência CRONOS" />
       </a>
-      <h1>Painel administratcccivo</h1>
+      <h1>Painel administrativo</h1>
     </div>
   </header>
 );

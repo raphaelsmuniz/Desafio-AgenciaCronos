@@ -1,20 +1,16 @@
 {
   "users": [
     {
-      "name": "fgfdgfgdgd",
-      "email": "dgdfgfg",
-      "id": 5
+      "name": "Python",
+      "imagem": "",
+      "descricao": "curso de python 2",
+      "id": 8
     },
     {
-      "name": "fdfdfdfdfd",
-      "email": "fdfdfdfdfdf",
-      "id": 6
-    },
-    {
-      "name": "Java",
-      "imagem": "C:\\fakepath\\ilustra-team.png",
-      "descricao": "Curso completo de Java",
-      "id": 7
+      "name": "fsgsg",
+      "imagem": "C:\\fakepath\\ilustra-marketing.png",
+      "descricao": "sfsgsfgs",
+      "id": 9
     }
   ]
 }

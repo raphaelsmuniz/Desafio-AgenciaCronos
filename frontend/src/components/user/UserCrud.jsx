@@ -71,7 +71,6 @@ export default class UserCrud extends Component {
                     name="imagem"
                     value={this.state.user.imagem}
                     onChange={(e) => this.upDateFild(e)}
-                    // placeholder="Descrição do curso"
                   />
                 </div>
               </div>
