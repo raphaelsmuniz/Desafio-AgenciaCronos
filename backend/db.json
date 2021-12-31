@@ -11,14 +11,10 @@
       "id": 6
     },
     {
-      "name": "ffffffffff",
-      "email": "fffff",
+      "name": "Java",
+      "imagem": "C:\\fakepath\\ilustra-team.png",
+      "descricao": "Curso completo de Java",
       "id": 7
-    },
-    {
-      "name": "teste",
-      "email": "teste",
-      "id": 8
     }
   ]
 }

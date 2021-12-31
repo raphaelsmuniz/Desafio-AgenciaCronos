@@ -66,12 +66,12 @@ export default class UserCrud extends Component {
                 <div className="form-group">
                   <label>Imagem</label>
                   <input
-                    type="text"
+                    type="file"
                     className="form-control"
                     name="imagem"
                     value={this.state.user.imagem}
                     onChange={(e) => this.upDateFild(e)}
-                    placeholder="Descrição do curso"
+                    // placeholder="Descrição do curso"
                   />
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default class UserCrud extends Component {
                   <input
                     type="text"
                     className="form-control"
-                    name="email"
+                    name="descricao"
                     value={this.state.user.descricao}
                     onChange={(e) => this.upDateFild(e)}
                     placeholder="Descrição do curso"
@@ -136,8 +136,8 @@ export default class UserCrud extends Component {
       return (
         <tr key={user.id}>
           <td>{user.name}</td>
-          <td>{user.name}</td>
-          <td>{user.email}</td>
+          <td>{user.imagem}</td>
+          <td>{user.descricao}</td>
           <td>
             <button
               className="btn btn-secondary m-1"
