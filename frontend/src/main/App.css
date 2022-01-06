@@ -31,13 +31,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header img {
-  width: 200px;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 header {
@@ -49,14 +44,21 @@ header {
 
 header .container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+header img {
+  width: 200px;
+  margin: 0 auto;
 }
 
 header h1 {
   color: #fff !important;
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1,
@@ -82,6 +84,11 @@ h3 {
   border-color: #0097a7;
   text-transform: uppercase;
   margin: 10px 0;
+}
+
+.container .form .row .col {
+  display: flex;
+  flex-direction: column;
 }
 
 table img {
